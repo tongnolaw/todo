@@ -3,12 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
-    <script type="text/javascript" src="script.js">
-
-    </script>
+    <h1>Todo list</h1>
+    <div>
+      <input type="text" name="task" class="task-input">
+      <button type="summit" class="btn-add">add task</button>
+    </div>
+    <ul class="content">
+      <li>
+        <input class="check" type="checkbox" />
+        <span class="task">create product</span>
+        <span class="delete">(x)</span>
+      </li>
+    </ul>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
